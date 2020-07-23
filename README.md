@@ -3,8 +3,7 @@
 - `yarn` or `npm install`
 
 ### HTML & CSS edits
-- Add html blocks to /public/index.html (Sample block included)
-- Add js or html in /src/components/index.js (Sample block included)
+- Make changes as desired in /src/app.js or /src/components/index.js. (Sample block included)
 - Add fonts to /src/css/style.css if needed.
 
 ### Preview changes
