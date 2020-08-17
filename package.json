@@ -16,7 +16,7 @@
   "scripts": {
     "build": "npm run build:css && rollup -c",
     "watch": "rollup -c -w",
-    "dev": "yarn css && yarn watch",
+    "dev": "npm run css && yarn watch",
     "css": "npx tailwindcss build src/css/style.css -o public/tailwind.css",
     "build:css": "postcss src/css/style.css -o public/tailwind.css --env production"
   }
